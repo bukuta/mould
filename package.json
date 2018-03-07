@@ -1,0 +1,22 @@
+{
+  "name": "mould",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bukuta/mould.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bukuta/mould/issues"
+  },
+  "homepage": "https://github.com/bukuta/mould#readme"
+}

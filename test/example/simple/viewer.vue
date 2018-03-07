@@ -1,0 +1,29 @@
+<template>
+  <div>
+    <form-builder :entity="entity" :data="data" :shape="shape" />
+  </div>
+</template>
+<script>
+import {ResourceViewer}from '$src/casual/view-builder';
+
+import Site from '$src/casual/resources/site/entity.js';
+import data from '$src/casual/resources/site/data.js';
+import CreateShape from '$src/casual/resources/site/shapes/create.js';
+import ViewShape from '$src/casual/resources/site/shapes/view.js';
+
+import Device from '$src/casual/resources/device/entity.js';
+import deviceData from '$src/casual/resources/device/data.js';
+import DeviceCreateShape from '$src/casual/resources/device/shapes/create.js';
+import DeviceViewShape from '$src/casual/resources/device/shapes/view.js';
+
+export default {
+  components:{
+    'form-builder':ResourceViewer,
+  },
+  data(){
+    return {data:data,entity:Site,shape:ViewShape};
+  },
+};
+
+
+</script>
